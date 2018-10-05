@@ -1,0 +1,34 @@
+C:\Users\Ярослав\source\repos\Parser\Parser\obj\Debug\Parser.csprojAssemblyReference.cache
+C:\Users\Ярослав\source\repos\Parser\Parser\obj\Debug\Parser.Form1.resources
+C:\Users\Ярослав\source\repos\Parser\Parser\obj\Debug\Parser.Properties.Resources.resources
+C:\Users\Ярослав\source\repos\Parser\Parser\obj\Debug\Parser.csproj.GenerateResource.cache
+C:\Users\Ярослав\source\repos\Parser\Parser\obj\Debug\Parser.csproj.CoreCompileInputs.cache
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\Parser.exe.config
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\Parser.exe
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\Parser.pdb
+C:\Users\Ярослав\source\repos\Parser\Parser\obj\Debug\Parser.exe
+C:\Users\Ярослав\source\repos\Parser\Parser\obj\Debug\Parser.pdb
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\phantomjs.exe
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\phantomjs-license.txt
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\Ionic.Zip.dll
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\NReco.PhantomJS.dll
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\WebDriver.dll
+C:\Users\Ярослав\source\repos\Parser\Parser\bin\Debug\WebDriver.xml
+C:\Users\Ярослав\source\repos\Parser\Parser\obj\Debug\Parser.csproj.CopyComplete
+F:\C# project\Parser\Parser\Parser\bin\Debug\Parser.exe.config
+F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.exe
+F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.pdb
+F:\C# project\Parser\Parser\Parser\bin\Debug\phantomjs.exe
+F:\C# project\Parser\Parser\Parser\bin\Debug\phantomjs-license.txt
+F:\C# project\Parser\Parser\Parser\bin\Debug\Parser.exe
+F:\C# project\Parser\Parser\Parser\bin\Debug\Parser.pdb
+F:\C# project\Parser\Parser\Parser\bin\Debug\Ionic.Zip.dll
+F:\C# project\Parser\Parser\Parser\bin\Debug\Newtonsoft.Json.dll
+F:\C# project\Parser\Parser\Parser\bin\Debug\NReco.PhantomJS.dll
+F:\C# project\Parser\Parser\Parser\bin\Debug\WebDriver.dll
+F:\C# project\Parser\Parser\Parser\bin\Debug\WebDriver.xml
+F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.csprojResolveAssemblyReference.cache
+F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.Form1.resources
+F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.Properties.Resources.resources
+F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.csproj.GenerateResource.Cache
