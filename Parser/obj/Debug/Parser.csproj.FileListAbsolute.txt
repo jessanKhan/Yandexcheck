@@ -32,3 +32,6 @@ F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.csprojResolveAssemblyReferen
 F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.Form1.resources
 F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.Properties.Resources.resources
 F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.csproj.GenerateResource.Cache
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\Parser.exe.config
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\obj\Debug\Parser.exe
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\obj\Debug\Parser.pdb
