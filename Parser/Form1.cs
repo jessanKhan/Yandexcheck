@@ -13,15 +13,17 @@ namespace Parser
 {
     public partial class Form1 : Form
     {
-        
+        string ul;
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtLog.Text = Parser("http://forex-pak.com/forumdisplay.php?2-Forum-aur-Portal-k-ailanaat&s=0bd132df75246aec7bd0c0789c130053");
+            ul = textBox1.Text;
+            txtLog.Text = Parser(ul);
         }
 
 
@@ -68,6 +70,11 @@ namespace Parser
         
 
         private void txtLog_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

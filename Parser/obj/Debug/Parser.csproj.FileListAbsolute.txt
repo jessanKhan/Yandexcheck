@@ -35,3 +35,16 @@ F:\C# project\Parser\Parser\Parser\obj\Debug\Parser.csproj.GenerateResource.Cach
 C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\Parser.exe.config
 C:\Users\Angryman\Desktop\Yandexcheck\Parser\obj\Debug\Parser.exe
 C:\Users\Angryman\Desktop\Yandexcheck\Parser\obj\Debug\Parser.pdb
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\obj\Debug\Parser.csprojResolveAssemblyReference.cache
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\obj\Debug\Parser.Form1.resources
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\obj\Debug\Parser.Properties.Resources.resources
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\obj\Debug\Parser.csproj.GenerateResource.Cache
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\phantomjs.exe
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\phantomjs-license.txt
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\Parser.exe
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\Parser.pdb
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\Ionic.Zip.dll
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\NReco.PhantomJS.dll
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\WebDriver.dll
+C:\Users\Angryman\Desktop\Yandexcheck\Parser\bin\Debug\WebDriver.xml
