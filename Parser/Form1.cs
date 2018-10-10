@@ -15,6 +15,7 @@ namespace Parser
     {
         //int t = 0;
         string ul;
+         string res;
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +26,7 @@ namespace Parser
         {
             ul = textBox1.Text;
             richTextBox.Text = Parser(ul);
+           
             
         }
 
@@ -124,21 +126,29 @@ namespace Parser
         }
 
 
-        public static string Parser(string url)
-        {
-            HttpWebRequest request =
-            (HttpWebRequest)WebRequest.Create(url);
+        public string Parser(string url)
+        { try
+            {
+                HttpWebRequest request =
+                (HttpWebRequest)WebRequest.Create(url);
 
-            request.Method = "GET";
-            request.Accept = "application/json";
-            request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
+                request.Method = "GET";
+                request.Accept = "application/json";
+                request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
 
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            StreamReader reader = new StreamReader(response.GetResponseStream());
-            StringBuilder output = new StringBuilder();
-            output.Append(reader.ReadToEnd());
-            response.Close();
-            return output.ToString();
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+
+
+                StreamReader reader = new StreamReader(response.GetResponseStream());
+                StringBuilder output = new StringBuilder();
+                output.Append(reader.ReadToEnd());
+                response.Close();
+                return output.ToString();
+            }
+            catch (Exception e)
+            { return errormsg.Text = "error"; }
+            
         }
 
 
@@ -171,19 +181,22 @@ namespace Parser
             }
             if (richTextBox.SelectionBackColor == System.Drawing.Color.Red)
             {
-                nf.Text = "";
-                resultct.Text = "Found";
+                Fdmsg.ForeColor = System.Drawing.Color.Green;
+                Fdmsg.Text = "Counter Found";
 
-                //if (richTextBox.SelectionBackColor != System.Drawing.Color.Red)
-                //{
 
-                //}
             }
             else
             {
-                nf.Text = "Not Found";
-                resultct.Text = "";
+                Fdmsg.ForeColor = System.Drawing.Color.Red;
+                Fdmsg.Text = "Counter Not Found";
+
             }
+
+        }
+
+        private void pageld_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

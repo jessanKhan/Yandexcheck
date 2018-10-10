@@ -34,8 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.srchbtn = new System.Windows.Forms.Button();
             this.richTextBox = new System.Windows.Forms.RichTextBox();
-            this.resultct = new System.Windows.Forms.TextBox();
-            this.nf = new System.Windows.Forms.TextBox();
+            this.errormsg = new System.Windows.Forms.Label();
+            this.Fdmsg = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -44,7 +44,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(174, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "HTML View";
+            this.button1.Text = "Load Page";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -87,40 +87,38 @@
             // 
             // richTextBox
             // 
-            this.richTextBox.Location = new System.Drawing.Point(13, 258);
+            this.richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox.Location = new System.Drawing.Point(14, 270);
             this.richTextBox.Name = "richTextBox";
             this.richTextBox.ReadOnly = true;
-            this.richTextBox.Size = new System.Drawing.Size(555, 133);
+            this.richTextBox.Size = new System.Drawing.Size(555, 10);
             this.richTextBox.TabIndex = 8;
             this.richTextBox.Text = "";
             // 
-            // resultct
+            // errormsg
             // 
-            this.resultct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultct.ForeColor = System.Drawing.Color.Green;
-            this.resultct.Location = new System.Drawing.Point(192, 160);
-            this.resultct.Name = "resultct";
-            this.resultct.Size = new System.Drawing.Size(100, 29);
-            this.resultct.TabIndex = 9;
+            this.errormsg.AutoSize = true;
+            this.errormsg.Location = new System.Drawing.Point(284, 59);
+            this.errormsg.Name = "errormsg";
+            this.errormsg.Size = new System.Drawing.Size(0, 13);
+            this.errormsg.TabIndex = 12;
             // 
-            // nf
+            // Fdmsg
             // 
-            this.nf.BackColor = System.Drawing.Color.White;
-            this.nf.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nf.ForeColor = System.Drawing.Color.Red;
-            this.nf.Location = new System.Drawing.Point(299, 160);
-            this.nf.Name = "nf";
-            this.nf.Size = new System.Drawing.Size(100, 29);
-            this.nf.TabIndex = 10;
+            this.Fdmsg.AutoSize = true;
+            this.Fdmsg.Location = new System.Drawing.Point(284, 159);
+            this.Fdmsg.Name = "Fdmsg";
+            this.Fdmsg.Size = new System.Drawing.Size(0, 13);
+            this.Fdmsg.TabIndex = 13;
             // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(581, 413);
-            this.Controls.Add(this.nf);
-            this.Controls.Add(this.resultct);
+            this.ClientSize = new System.Drawing.Size(581, 300);
+            this.Controls.Add(this.Fdmsg);
+            this.Controls.Add(this.errormsg);
             this.Controls.Add(this.richTextBox);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.srchbtn);
@@ -144,8 +142,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button srchbtn;
         private System.Windows.Forms.RichTextBox richTextBox;
-        private System.Windows.Forms.TextBox resultct;
-        private System.Windows.Forms.TextBox nf;
+        private System.Windows.Forms.Label errormsg;
+        private System.Windows.Forms.Label Fdmsg;
     }
 }
 
