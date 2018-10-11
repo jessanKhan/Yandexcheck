@@ -1,6 +1,6 @@
 ﻿namespace Parser
 {
-    partial class Form1
+    partial class yandex_check
     {
         /// <summary>
         /// Required designer variable.

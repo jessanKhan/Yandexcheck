@@ -11,12 +11,12 @@ using OpenQA.Selenium.PhantomJS;
 
 namespace Parser
 {
-    public partial class Form1 : Form
+    public partial class yandex_check : Form
     {
         //int t = 0;
         string ul;
          string res;
-        public Form1()
+        public yandex_check()
         {
             InitializeComponent();
             

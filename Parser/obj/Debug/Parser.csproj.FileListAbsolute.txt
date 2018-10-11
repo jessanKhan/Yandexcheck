@@ -61,7 +61,6 @@ C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Debug\NReco.PhantomJS.dll
 C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Debug\WebDriver.dll
 C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Debug\WebDriver.xml
 C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Debug\Parser.csprojResolveAssemblyReference.cache
-C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Debug\Parser.Form1.resources
 C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Debug\Parser.Properties.Resources.resources
 C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Debug\Parser.csproj.GenerateResource.Cache
 H:\Yandexcheck\Parser\bin\Debug\Parser.exe.config
@@ -80,3 +79,4 @@ H:\Yandexcheck\Parser\obj\Debug\Parser.csprojResolveAssemblyReference.cache
 H:\Yandexcheck\Parser\obj\Debug\Parser.Form1.resources
 H:\Yandexcheck\Parser\obj\Debug\Parser.Properties.Resources.resources
 H:\Yandexcheck\Parser\obj\Debug\Parser.csproj.GenerateResource.Cache
+C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Debug\Parser.yandex_check.resources
