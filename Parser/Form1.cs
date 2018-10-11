@@ -129,6 +129,7 @@ namespace Parser
         public string Parser(string url)
         { try
             {
+                Fdmsg.Text = "";
                 HttpWebRequest request =
                 (HttpWebRequest)WebRequest.Create(url);
 
@@ -147,7 +148,7 @@ namespace Parser
                 return output.ToString();
             }
             catch (Exception e)
-            { return errormsg.Text = "error"; }
+            { return Fdmsg.Text = "Please Check The Network Connection or the URL There is an Error !!"; }
             
         }
 
