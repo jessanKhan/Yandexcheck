@@ -70,6 +70,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(299, 20);
             this.textBox2.TabIndex = 4;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // label2
             // 
@@ -138,7 +139,7 @@
             this.label3.TabIndex = 15;
             this.label3.Text = "URL";
             // 
-            // Form1
+            // yandex_check
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,7 +156,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button1);
             this.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.Name = "Form1";
+            this.Name = "yandex_check";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

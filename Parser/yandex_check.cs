@@ -96,6 +96,14 @@ namespace Parser
 
         private void srchbtn_Click(object sender, EventArgs e)
         {
+            string textboxValue = textBox2.Text;
+
+            // Retrieve as decimal
+            decimal valueDec = decimal.Parse(textboxValue);
+
+            // Retrieve as integer
+            int valueInt = Int32.Parse(textboxValue);
+
             int index = 0;
             String temp = richTextBox.Text;
 
@@ -133,6 +141,20 @@ namespace Parser
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // If you want, you can allow decimal (float) numbers
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
