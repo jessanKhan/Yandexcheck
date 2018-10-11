@@ -148,7 +148,8 @@ namespace Parser
                 return output.ToString();
             }
             catch (Exception e)
-            { return Fdmsg.Text = "Please Check The Network Connection or the URL There is an Error !!"; }
+            { Fdmsg.ForeColor = System.Drawing.Color.FromArgb(255, 128, 128);
+                return Fdmsg.Text="Please Check The Network Connection or the URL, There is an Error !!"; }
             
         }
 
@@ -182,14 +183,14 @@ namespace Parser
             }
             if (richTextBox.SelectionBackColor == System.Drawing.Color.Red)
             {
-                Fdmsg.ForeColor = System.Drawing.Color.Green;
+                Fdmsg.ForeColor = System.Drawing.Color.FromArgb(14, 242, 151);
                 Fdmsg.Text = "Counter Found";
 
 
             }
             else
             {
-                Fdmsg.ForeColor = System.Drawing.Color.Red;
+                Fdmsg.ForeColor = System.Drawing.Color.FromArgb(255, 128, 128);
                 Fdmsg.Text = "Counter Not Found";
 
             }
