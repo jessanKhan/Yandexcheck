@@ -13,9 +13,8 @@ namespace Parser
 {
     public partial class yandex_check : Form
     {
-        //int t = 0;
+        // Assigning the input url on a variable
         string ul;
-         string res;
         public yandex_check()
         {
             InitializeComponent();
@@ -82,10 +81,7 @@ namespace Parser
         }
 
 
-        //private void richTextBox_TextChanged(object sender, EventArgs e)
-        //{
-
-        //}
+       
 
        
 
@@ -103,7 +99,8 @@ namespace Parser
 
             // Retrieve as integer
             int valueInt = Int32.Parse(textboxValue);
-
+            
+            //Search procedure starts here
             int index = 0;
             String temp = richTextBox.Text;
 
@@ -118,14 +115,14 @@ namespace Parser
 
             }
             if (richTextBox.SelectionBackColor == System.Drawing.Color.Red)
-            {
+            {    // Gives Message when counter is found
                 Fdmsg.ForeColor = System.Drawing.Color.FromArgb(14, 242, 151);
                 Fdmsg.Text = "Counter Found";
 
 
             }
             else
-            {
+            {   // Gives Message when counter is not found
                 Fdmsg.ForeColor = System.Drawing.Color.FromArgb(255, 128, 128);
                 Fdmsg.Text = "Counter Not Found";
 
@@ -144,17 +141,13 @@ namespace Parser
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+        {    //Search the counter which is only numeric 
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) )
             {
                 e.Handled = true;
             }
 
-            // If you want, you can allow decimal (float) numbers
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
-            {
-                e.Handled = true;
-            }
+            
         }
     }
 }
