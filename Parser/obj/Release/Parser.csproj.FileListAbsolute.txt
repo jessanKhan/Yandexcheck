@@ -1,0 +1,16 @@
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\Parser.exe.config
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\phantomjs.exe
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\phantomjs-license.txt
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\Parser.exe
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\Parser.pdb
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\Ionic.Zip.dll
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\Newtonsoft.Json.dll
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\NReco.PhantomJS.dll
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\WebDriver.dll
+C:\Users\ITG\Desktop\Yandexcheck\Parser\bin\Release\WebDriver.xml
+C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Release\Parser.csprojResolveAssemblyReference.cache
+C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Release\Parser.yandex_check.resources
+C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Release\Parser.Properties.Resources.resources
+C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Release\Parser.csproj.GenerateResource.Cache
+C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Release\Parser.exe
+C:\Users\ITG\Desktop\Yandexcheck\Parser\obj\Release\Parser.pdb
